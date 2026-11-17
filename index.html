@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0f141d">
+<title>Phone Widgets – Home Screen Widgets for Android | Rozmee</title>
+<meta name="description" content="Phone Widgets by Rozmee: 170+ beautiful home screen widgets for Android. Clocks, weather, calendar, battery, steps, prayer times, notes, photos, music controls and matching theme sets.">
+<meta name="keywords" content="Android widgets, home screen widgets, clock widget, weather widget, calendar widget, battery widget, prayer times widget, step counter widget, aesthetic widgets, widget themes, Rozmee">
+<link rel="canonical" href="https://rozmeeapps.github.io/rozmeeapps/">
+<link rel="icon" href="assets/phone-widgets/app-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rozmee Apps">
+<meta property="og:title" content="Phone Widgets – Home Screen Widgets for Android">
+<meta property="og:description" content="170+ home screen widgets for Android: clocks, weather, calendar, battery, steps, prayer times, notes, photos and theme sets.">
+<meta property="og:url" content="https://rozmeeapps.github.io/rozmeeapps/">
+<meta property="og:image" content="https://rozmeeapps.github.io/rozmeeapps/assets/phone-widgets/app-icon.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Phone Widgets – Home Screen Widgets for Android">
+<meta name="twitter:description" content="170+ home screen widgets for Android by Rozmee.">
+<meta name="twitter:image" content="https://rozmeeapps.github.io/rozmeeapps/assets/phone-widgets/app-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://rozmeeapps.github.io/rozmeeapps/#org",
+      "name": "Rozmee",
+      "url": "https://rozmeeapps.github.io/rozmeeapps/",
+      "email": "rozmee.apps@gmail.com",
+      "logo": "https://rozmeeapps.github.io/rozmeeapps/assets/phone-widgets/app-icon.png"
+    },
+    {
+      "@type": "MobileApplication",
+      "name": "Phone Widgets",
+      "operatingSystem": "Android",
+      "applicationCategory": "PersonalizationApplication",
+      "description": "170+ home screen widgets for Android: clocks, weather, calendar, battery, steps, prayer times, notes, photos, music controls and matching theme sets.",
+      "url": "https://rozmeeapps.github.io/rozmeeapps/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.rozmee.widgets.for.android.liquidglass",
+      "image": "https://rozmeeapps.github.io/rozmeeapps/assets/phone-widgets/app-icon.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "publisher": { "@id": "https://rozmeeapps.github.io/rozmeeapps/#org" }
+    }
+  ]
+}
+</script>
+<style>
+@font-face{font-family:Outfit;src:url('assets/phone-widgets/outfit-light.ttf') format('truetype');font-weight:300;font-display:swap}
+@font-face{font-family:Outfit;src:url('assets/phone-widgets/outfit-bold.ttf') format('truetype');font-weight:700;font-display:swap}
+:root{color-scheme:dark;--text:#f4f7fc;--muted:#afbed3;--blue:#86bbff;--line:rgba(212,227,250,.16)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 75% 0,rgba(61,135,245,.14),transparent 40%),linear-gradient(#171d29,#0f141d 700px);background-color:#0f141d;color:var(--text);font-family:Outfit,system-ui,sans-serif;font-weight:300;font-size:17px;line-height:1.7}
+a{color:var(--blue);text-underline-offset:4px}a:hover{color:#c7e0ff}
+a:focus-visible{outline:3px solid var(--blue);outline-offset:5px;border-radius:4px}
+strong,h1,h2,h3{font-weight:700}
+p{margin:0 0 16px}
+.wrap{max-width:1120px;margin:auto;padding:0 28px}
+.top{padding:26px 0;display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:20px;color:var(--text);text-decoration:none}
+.brand img{width:44px;height:44px;border-radius:13px}
+.top nav a{margin-left:22px;font-size:15px;text-decoration:none;color:var(--muted)}
+.top nav a:hover{color:var(--blue)}
+.hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px;align-items:center;padding:72px 0 56px}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;color:var(--blue);font-size:12px;font-weight:700}
+h1{font-size:clamp(40px,6.5vw,68px);line-height:1.06;letter-spacing:-.045em;margin:16px 0 22px}
+.intro{font-size:21px;line-height:1.6;color:var(--muted);max-width:620px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:100px;font-weight:700;text-decoration:none}
+.btn.primary{background:#3d87f5;color:#fff}.btn.primary:hover{background:#5a9bff;color:#fff}
+.btn.ghost{border:1px solid #86bbff55;background:#3d87f51f}
+.showcase{display:grid;place-items:center}
+.showcase img{width:min(280px,70vw);height:auto;border-radius:56px;box-shadow:0 30px 80px #3d87f540}
+.glass{background:linear-gradient(150deg,rgba(38,47,61,.96),rgba(28,36,48,.96));border:1px solid var(--line);border-radius:24px}
+h2{font-size:clamp(28px,4vw,40px);letter-spacing:-.03em;line-height:1.2;margin:0 0 12px}
+.section{padding:56px 0}
+.lead{color:var(--muted);max-width:720px;margin-bottom:32px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{padding:24px}
+.symbol{display:grid;place-items:center;width:40px;height:40px;background:#3d87f52b;border-radius:12px;color:var(--blue);font-size:20px;margin-bottom:14px}
+h3{font-size:19px;margin:0 0 6px}
+.card p{font-size:15px;color:var(--muted);line-height:1.6;margin:0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+.stat{padding:24px;text-align:center}
+.stat b{display:block;font-size:40px;letter-spacing:-.03em;color:var(--text)}
+.stat span{color:var(--muted);font-size:15px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.steps li{counter-increment:s;padding:24px;color:var(--muted)}
+.steps li::before{content:"0" counter(s);display:block;color:var(--blue);font-weight:700;letter-spacing:.12em;font-size:13px;margin-bottom:8px}
+.steps strong{color:var(--text);display:block;margin-bottom:4px}
+.privacy{padding:32px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.privacy p{color:var(--muted);margin:0;max-width:640px}
+footer{padding:40px 0 30px;margin-top:40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px 24px}
+footer a{text-decoration:none}
+footer nav a{margin-left:18px}
+@media(max-width:860px){.hero{grid-template-columns:1fr;padding:48px 0 32px;gap:32px}.showcase{order:-1}.showcase img{width:180px;border-radius:40px}.grid,.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.wrap{padding:0 16px}.top nav{display:none}.grid,.steps,.stats{grid-template-columns:1fr}.stat b{font-size:32px}.intro{font-size:19px}.btn{width:100%;justify-content:center}footer{flex-direction:column}footer nav a{margin:0 18px 0 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="./"><img src="assets/phone-widgets/app-icon.png" alt="Phone Widgets app icon" width="44" height="44">Phone Widgets</a>
+  <nav aria-label="Main"><a href="#features">Features</a><a href="#how">How it works</a><a href="phone-widgets-privacy-policy.html">Privacy</a></nav>
+</header>
+<main>
+<section class="hero">
+  <div>
+    <div class="eyebrow">Home screen widgets for Android</div>
+    <h1>Make your home screen feel like yours.</h1>
+    <p class="intro">Phone Widgets gives you more than 170 widgets: clocks, weather, calendar, battery, steps, prayer times, notes, photos and music. Mix them freely or use a matching theme set.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.rozmee.widgets.for.android.liquidglass" rel="noopener">Get it on Google Play ↗</a>
+      <a class="btn ghost" href="#features">Explore features</a>
+    </div>
+  </div>
+  <div class="showcase"><img src="assets/phone-widgets/app-icon.png" alt="Phone Widgets" width="280" height="280"></div>
+</section>
+
+<div class="stats">
+  <div class="glass stat"><b>170+</b><span>widget designs</span></div>
+  <div class="glass stat"><b>20+</b><span>widget categories</span></div>
+  <div class="glass stat"><b>Free</b><span>no account needed</span></div>
+</div>
+
+<section class="section" id="features">
+  <h2>Every widget you need, in one app</h2>
+  <p class="lead">Each widget is a native Android home screen widget. Resize it, customise its colours and content, and it updates on its own.</p>
+  <div class="grid">
+    <article class="glass card"><span class="symbol" aria-hidden="true">◷</span><h3>Clock widgets</h3><p>Digital, analog and world clocks in minimal, bold and playful styles, plus date and calendar layouts.</p></article>
+    <article class="glass card"><span class="symbol" aria-hidden="true">☀</span><h3>Weather widgets</h3><p>Current conditions, forecasts and air quality for your location or any city you pick.</p></article>
+    <article class="glass card"><span class="symbol" aria-hidden="true">▦</span><h3>Calendar &amp; agenda</h3><p>Month views, upcoming events and countdowns from your device calendar.</p></article>
+    <article class="glass card"><span class="symbol" aria-hidden="true">▮</span><h3>Battery widgets</h3><p>Battery level and charging status at a glance.</p></article>
+    <article class="glass card"><span class="symbol" aria-hidden="true">♥</span><h3>Steps &amp; health</h3><p>Daily step counts and goals through Health Connect or the phone's step sensor.</p></article>
+    <article class="glass card"><span class="symbol" aria-hidden="true">☾</span><h3>Prayer times &amp; Qibla</h3><p>Prayer times worked out on your device, a countdown to the next prayer, Hijri dates and a Qibla compass.</p></article>
+    <article class="glass card"><span class="symbol" aria-hidden="true">✎</span><h3>Notes, tasks &amp; habits</h3><p>Sticky notes, to-do lists, counters, habit trackers and focus timers on your home screen.</p></article>
+    <article class="glass card"><span class="symbol" aria-hidden="true">▶</span><h3>Music &amp; photos</h3><p>Media controls for the app that's playing, and photo frames for the pictures you choose.</p></article>
+    <article class="glass card"><span class="symbol" aria-hidden="true">✦</span><h3>Theme sets &amp; wallpapers</h3><p>Matching widget sets with wallpapers, so your whole home screen fits one style.</p></article>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <h2>Set up in seconds</h2>
+  <p class="lead">You don't need a launcher or an account. Phone Widgets works with your phone's own home screen.</p>
+  <ol class="steps">
+    <li class="glass"><strong>Pick a widget</strong>Browse by category or open a theme set.</li>
+    <li class="glass"><strong>Customise it</strong>Choose colours, content and size, with a live preview.</li>
+    <li class="glass"><strong>Add to home screen</strong>Tap Add and place the widget wherever you like.</li>
+  </ol>
+</section>
+
+<section class="section">
+  <div class="glass privacy">
+    <div><h2 style="font-size:26px">Your data, your choices</h2><p>Widget content is stored on your device. All permissions are optional, and you only need to allow the ones your widgets use. The privacy policy explains exactly what the app uses and why.</p></div>
+    <a class="btn ghost" href="phone-widgets-privacy-policy.html">Read the privacy policy</a>
+  </div>
+</section>
+</main>
+<footer>
+  <span>© 2026 Rozmee · <a href="mailto:rozmee.apps@gmail.com">rozmee.apps@gmail.com</a></span>
+  <nav aria-label="Footer"><a href="phone-widgets-privacy-policy.html">Privacy Policy</a><a href="https://play.google.com/store/apps/details?id=com.rozmee.widgets.for.android.liquidglass" rel="noopener">Google Play</a></nav>
+</footer>
+</div>
+</body>
+</html>
