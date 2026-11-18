@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72" role="img" aria-label="MotionCalm">
+  <defs><clipPath id="r"><rect x="18" y="18" width="72" height="72" rx="17"/></clipPath></defs>
+  <g clip-path="url(#r)">
+    <rect width="108" height="108" fill="#2BB3A3"/>
+    <path fill="#1E8C80" d="M0,58 C22,50 42,66 54,58 C66,50 86,66 108,58 L108,108 L0,108z"/>
+    <g fill="#FFFFFF">
+      <circle cx="34" cy="38" r="3.5"/><circle cx="34" cy="54" r="3.5"/><circle cx="34" cy="70" r="3.5"/>
+      <circle cx="74" cy="38" r="3.5"/><circle cx="74" cy="54" r="3.5"/><circle cx="74" cy="70" r="3.5"/>
+    </g>
+    <rect x="43" y="51.5" width="22" height="5" rx="2.5" fill="#FFC56B"/>
+  </g>
+</svg>
