@@ -9,7 +9,7 @@ Source for [rozmeeapps.github.io/rozmeeapps](https://rozmeeapps.github.io/rozmee
 
 ## MotionCalm
 
-- [App page](https://rozmeeapps.github.io/rozmeeapps/motioncalm.html): motion sickness relief for passengers
+- [App page](https://rozmeeapps.github.io/rozmeeapps/motioncalm.html): vehicle motion cues for passengers
 - [Privacy policy](https://rozmeeapps.github.io/rozmeeapps/motioncalm-privacy-policy.html): used in the app and on the Google Play listing. Keep it stable.
 - [Terms & Conditions](https://rozmeeapps.github.io/rozmeeapps/motioncalm-terms.html): used in the app. Keep it stable.
 - Support: rozmee.dev@gmail.com
